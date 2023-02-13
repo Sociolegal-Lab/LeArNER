@@ -1,0 +1,5 @@
+T1	DATE 0 4	七十九年
+T2	REGULATION 4 21	特種考試臺灣省基層公務人員考試規則
+T3	REGULATION 34 40	該規則第三條
+T4	LAW 116 121	憲法第七條
+T5	RIGHT 121 124	平等權

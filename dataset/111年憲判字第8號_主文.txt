@@ -1,0 +1,4 @@
+T1	COURT 0 4	最高法院
+T2	LEGALCASES 4 21	111年度台簡抗字第13號民事裁定
+T3	LAW 23 25	憲法
+T4	COURT 33 37	最高法院
