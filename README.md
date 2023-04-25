@@ -1,4 +1,5 @@
 # LeArNER
+<<<<<<< HEAD
 
 ## Abstract
 Our proposed NER model for legal texts, LeArNER, utilizes minimal annotated data for model training to reduce expenses associated with corpus collection and training. We evaluated our model on a dataset of constitutional legal cases from Taiwan, written in traditional Chinese, and achieved an impressive F1 score of 94.88% for 13 entity types. LeArNER's performance was best achieved with a training sample of only 2000 sentences, highlighting its efficiency and potential for further legal NER research.
@@ -66,3 +67,4 @@ Our proposed NER model for legal texts, LeArNER, utilizes minimal annotated data
 | TCC decisions 1949-2021  | TCC decisions 1949-2021  | 91.6  | 96.3  | 93.9  |
 | TCC decisions 1949-2021  | TCC decisions 2022 (All entity)  | 80.5  | 55.6  | 65.7  |
 | TCC decisions 1949-2021  | TCC decisions 2022 (Pseudonym labels removed)  | 84.1  | 88.2  | 86.1  |
+
