@@ -66,6 +66,3 @@ Our proposed NER model for legal texts, LeArNER, utilizes minimal annotated data
 | TCC decisions 1949-2021  | TCC decisions 1949-2021  | 91.6  | 96.3  | 93.9  |
 | TCC decisions 1949-2021  | TCC decisions 2022 (All entity)  | 80.5  | 55.6  | 65.7  |
 | TCC decisions 1949-2021  | TCC decisions 2022 (Pseudonym labels removed)  | 84.1  | 88.2  | 86.1  |
-
-
-
