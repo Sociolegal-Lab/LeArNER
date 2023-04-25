@@ -1,5 +1,4 @@
 # LeArNER
-<<<<<<< HEAD
 
 ## Abstract
 Our proposed NER model for legal texts, LeArNER, utilizes minimal annotated data for model training to reduce expenses associated with corpus collection and training. We evaluated our model on a dataset of constitutional legal cases from Taiwan, written in traditional Chinese, and achieved an impressive F1 score of 94.88% for 13 entity types. LeArNER's performance was best achieved with a training sample of only 2000 sentences, highlighting its efficiency and potential for further legal NER research.
@@ -45,6 +44,18 @@ Our proposed NER model for legal texts, LeArNER, utilizes minimal annotated data
 | RIGHT | 677 |
 
 ### Results
+
+
+#### Comparison of model performance
+|                 | RoBERTa    | RoBERTa | RoBERTa | Entity-enhanced BERT | Entity-enhanced BERT | Entity-enhanced BERT | LERT       | LERT    | LERT | LeArNER    | LeArNER | LeArNER |
+|-----------------|------------|---------|---------|----------------------|----------------------|----------------------|------------|---------|------|------------|---------|---------|
+| Sentence number | Precision  | Recall  |  F1     | Precision            | Recall               |  F1                  | Precision  | Recall  |  F1  | Precision  | Recall  |  F1     |
+| 5360            | 94.4       | 87.2    | 89.6    | 90.5                 | 91.1                 | 93.7                 | 89.2       | 89.9    | 89.6 | 91.6       | 96.3    | 93.9    |
+| 5000            | 96.2       | 92.3    | 93.9    | 89.0                 | 96.6                 | 92.6                 | 88.9       | 93.6    | 91.3 | 89.4       | 95.5    | 92.3    |
+| 4000            | 93.6       | 92.3    | 92.7    | 89.4                 | 95.7                 | 92.5                 | 90.0       | 93.7    | 91.9 | 89.4       | 97.5    | 93.2    |
+| 3000            | 83.4       | 76.9    | 79.3    | 88.2                 | 95.7                 | 91.8                 | 87.1       | 92.1    | 89.6 | 91.7       | 96.9    | 94.2    |
+| 2000            | 82.1       | 61.5    | 70.0    | 87.5                 | 95.1                 | 91.1                 | 86.9       | 91.3    | 89.1 | 92.7       | 97.2    | 94.9    |
+| 1000            | 0.0        | 0.0     | 0.0     | 78.9                 | 86.9                 | 82.7                 | 83.2       | 89.2    | 86.2 | 86.1       | 86.1    | 86.1    |
 
 #### Performance of LeArNER on different court decisions
 
